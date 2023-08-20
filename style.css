@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Barr;
+    src: url(./RussoOne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    /* background-color: #000; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body , html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+nav{
+    height: 80px;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #dadada; */
+    margin:0px 20px;
+}
+nav img{
+    width: 10%;
+    height: 5%;
+}
+nav #navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap :20px;
+    margin: 0px 2vw;
+    font-size: 14px;
+}
+nav #menu i{
+    display: none;
+}
+nav #menu i{
+    display: none;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main #leftcorner{
+    width: 45vw;
+    height: 70vh;
+    margin: 10px 20px ;
+    margin-top: 120px;
+    /* background-color: red; */
+}
+
+#leftcorner h1{
+    
+    font-size:500%;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-family:barr;
+}
+
+#leftcorner h1:nth-last-child(1){
+    margin-top: -20px;
+    
+}
+
+.main #leftcorner h1 span >img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 8px solid #000;
+    
+}
+.main #leftcorner h1 span:nth-child(2){
+    margin-left:-50px;
+}
+.main #leftcorner h1 span:nth-child(3){
+    margin-left:-50px;
+}
+
+.main #rightcorner{
+    /* background-color: blue; */
+    width: 45vw;
+    height: 70vh;
+    margin: 10px 20px ;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.main #rightcorner img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.border{
+    max-width: 100vw;
+    height:1px;
+    background-color:#dadada;
+    margin: 0px 20px;
+}
+
+
+
+
+/* page 2 */
+
+#page2{
+    /* background-color: rgb(54, 52, 52); */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#page2 #box{
+    width: 200px;
+    height: 180px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+#page2 #box h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 10px;
+    
+    
+}
+#page2 #box p{
+    font-size: 15px;
+    text-align: center;
+    margin: 4px 20px;
+    /* text-transform: uppercase; */
+    
+}
